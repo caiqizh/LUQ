@@ -6,6 +6,8 @@ This repo is for the paper [LUQ: Long-text Uncertainty Quantification for LLMs](
 
 **Update:** We have recently included the more advanced Llama3-8b-instruct as our NLI tool. By utilizing VLLM, we can significantly increase the speed of inference and achieve better performance. 
 
+**Update-3:** We are glad that more and more LLM uncertainty quantification toolkits are including our methods. If you are interested in comparing multiple UQ methods in a unified way, you may check: (1) [uqlm](https://github.com/cvs-health/uqlm/releases/tag/v0.5.0); (2) [LM-Polygraph](https://github.com/IINemo/lm-polygraph/blob/main/src/lm_polygraph/estimators/luq.py).
+
 ```
 @inproceedings{zhang-etal-2024-luq,
     title = "{LUQ}: Long-text Uncertainty Quantification for {LLM}s",
